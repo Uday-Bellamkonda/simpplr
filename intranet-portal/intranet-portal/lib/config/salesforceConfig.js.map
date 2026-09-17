@@ -1,0 +1,1 @@
+{"version":3,"file":"salesforceConfig.js","sourceRoot":"","sources":["../../src/config/salesforceConfig.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,IAAM,gBAAgB,GAAG;IAC9B,WAAW,EAAE,mCAAmC;IAChD,MAAM,EAAE,mCAAmC;IAC3C,QAAQ,EAAE,IAAI;IACd,YAAY,EAAE,IAAI;IAClB,iBAAiB,EAAE,0CAA0C;CAC9D,CAAC"}

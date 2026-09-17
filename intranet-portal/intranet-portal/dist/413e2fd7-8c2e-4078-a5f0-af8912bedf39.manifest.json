@@ -1,0 +1,121 @@
+{
+  "id": "413e2fd7-8c2e-4078-a5f0-af8912bedf39",
+  "alias": "SiteAboutWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "SiteAbout"
+      },
+      "description": {
+        "default": "SiteAbout description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "SiteAbout"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/dist/"
+    ],
+    "entryModuleId": "site-about-web-part",
+    "scriptResources": {
+      "site-about-web-part": {
+        "type": "path",
+        "path": "site-about-web-part_4ffd0b29981027865b4a.js"
+      },
+      "react": {
+        "type": "component",
+        "id": "0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d",
+        "version": "17.0.1"
+      },
+      "react-dom": {
+        "type": "component",
+        "id": "aa0a46ec-1505-43cd-a44a-93f3a5aa460a",
+        "version": "17.0.1"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b",
+        "version": "1.20.0"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0",
+        "version": "1.20.0"
+      },
+      "SiteAboutWebPartStrings": {
+        "type": "path",
+        "path": "SiteAboutWebPartStrings_en-us_eb42a517954fea904e022e89eb9f35e4.js"
+      },
+      "@microsoft/sp-property-pane": {
+        "type": "component",
+        "id": "f9e737b7-f0df-4597-ba8c-3060f82380db",
+        "version": "1.20.0"
+      },
+      "PropertyControlStrings": {
+        "type": "localizedPath",
+        "paths": {
+          "ar-SA": "PropertyControlStrings_ar-sa_99ab4ac1f67a7ee459fa28c922cb25c2.js",
+          "bg-BG": "PropertyControlStrings_bg-bg_9c046b40ab59a7e86b52b63d063745cd.js",
+          "ca-ES": "PropertyControlStrings_ca-es_29d70286265b2f1e4f88f49da4d9ed0e.js",
+          "cs-CZ": "PropertyControlStrings_cs-cz_ce859869dc8ce2874b683cfc38c8ab90.js",
+          "da-DK": "PropertyControlStrings_da-dk_0640de66b50cff5476a259b98162142f.js",
+          "de-DE": "PropertyControlStrings_de-de_a9d20cb9c5a2cf476bd0eb5d48f49c10.js",
+          "el-GR": "PropertyControlStrings_el-gr_f705da75738f23fa04368a428792f177.js",
+          "en-GB": "PropertyControlStrings_en-gb_665db57dc93d4ab40914a21c91188047.js",
+          "en-US": "PropertyControlStrings_en-us_b84fc42631b5463786e2f1d037bf8c58.js",
+          "es-ES": "PropertyControlStrings_es-es_099481b850b9ab0574fe9ebc7dcc8dda.js",
+          "et-EE": "PropertyControlStrings_et-ee_c4891ccc23c086e65eb031b4ab78ef19.js",
+          "fi-FI": "PropertyControlStrings_fi-fi_d233546f8bf61d1cacfcfc5b5f1f4eb3.js",
+          "fr-FR": "PropertyControlStrings_fr-fr_a69e6ac351197d3c750eb064a67b09f1.js",
+          "it-IT": "PropertyControlStrings_it-it_6cc44b753a65911b028938c2572c9e53.js",
+          "ja-JP": "PropertyControlStrings_ja-jp_20faf97f5f7f3eb68d4f0d98079064ec.js",
+          "lt-LT": "PropertyControlStrings_lt-lt_9e2e4093ccb0fe73d2e0aecc2d2bc0cb.js",
+          "lv-LV": "PropertyControlStrings_lv-lv_1ade358202e1410b48a366e631c7c94a.js",
+          "nb-NO": "PropertyControlStrings_nb-no_cfc2c6efbf6c6e44fa7e40081e051cff.js",
+          "nl-NL": "PropertyControlStrings_nl-nl_78acaddc252c996b25fc3ca029f8095f.js",
+          "no": "PropertyControlStrings_no_5dd1a290f8a892387d3f31ba483a3dfd.js",
+          "pl-PL": "PropertyControlStrings_pl-pl_ecc55668db885bba309176c0af691096.js",
+          "pt-PT": "PropertyControlStrings_pt-pt_43b51ce3114cba0136c55c2079c9c90b.js",
+          "ro-RO": "PropertyControlStrings_ro-ro_5789c64bdd6ef968c646c592f2acb97c.js",
+          "ru-RU": "PropertyControlStrings_ru-ru_2724611a94631e9f78efb86170c7a81f.js",
+          "sk-SK": "PropertyControlStrings_sk-sk_66dc1403c9f0a1f9a2bdbfe16c60691b.js",
+          "sr-Latn-RS": "PropertyControlStrings_sr-latn-rs_261f614408f5999b69744c7b240ef1f9.js",
+          "sv-SE": "PropertyControlStrings_sv-se_c4a39af3c0d00020ec4197640539d584.js",
+          "tr-TR": "PropertyControlStrings_tr-tr_7e8f1714915b3fe91943935929a401f8.js",
+          "vi-VN": "PropertyControlStrings_vi-vn_83da7815db47c2fe440903685746e68f.js",
+          "zh-CN": "PropertyControlStrings_zh-cn_1eb47922a411a31b3a2af8a569787211.js",
+          "zh-TW": "PropertyControlStrings_zh-tw_fa3eb7b531c24edcdb33141f85bf51ae.js"
+        },
+        "defaultPath": "PropertyControlStrings_en-us_b84fc42631b5463786e2f1d037bf8c58.js"
+      },
+      "@microsoft/sp-http": {
+        "type": "component",
+        "id": "c07208f0-ea3b-4c1a-9965-ac1b825211a6",
+        "version": "1.20.0"
+      },
+      "@microsoft/sp-lodash-subset": {
+        "type": "component",
+        "id": "73e1dc6c-8441-42cc-ad47-4bd3659f8a3a",
+        "version": "1.20.0"
+      }
+    }
+  }
+}
